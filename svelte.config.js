@@ -9,6 +9,14 @@ const config = {
 
 	kit: {
 		adapter: adapter()
+	},
+	package: {
+		exports: (filepath) => {
+			if (filepath === 'index.js') {
+				return true;
+			}
+			return false;
+		}
 	}
 };
 
