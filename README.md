@@ -4,35 +4,17 @@ Move you DOM node with a pan handle component.
 
 ![Demo](./demo.gif)
 
-```js
-
+```svelte
 <script>
 	import PanHandle from '@douganderson444/svelte-panhandle';
-
-	let target;
-	let style = '';
-
-	// you can also set other non-resizable vars
-	let maxHeight = 400;
 </script>
 
-<div bind:this={target} style="--max-height: {maxHeight}px; {style}">
-	<p>Reposition Me</p>
-
-	{#if target}PanHandle
-		<PanHandle {target} bind:style />
-	{/if}
+<div style="position: relative; width: 100%; height: 100%; left: 100px;">
+	<div style="position: absolute;" class="box">
+		<p>Reposition Me</p>
+		<PanHandle />
+	</div>
 </div>
-
-<style>
-	div {
-		max-height: var(--max-height);
-		position: relative;
-		left: 50px;
-		top: 60px;
-	}
-</style>
-
 ```
 
 # Use
