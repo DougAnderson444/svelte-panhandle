@@ -1,3 +1,2 @@
-import PanHandle from './PanHandle.svelte';
-export { PanHandle };
-export { PanHandle as default };
+export { default as PanHandle } from './PanHandle.svelte';
+export { default as default } from './PanHandle.svelte';
