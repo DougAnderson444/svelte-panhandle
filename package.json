@@ -2,7 +2,6 @@
 	"name": "@douganderson444/svelte-panhandle",
 	"version": "0.0.3",
 	"svelte": "src/lib/index.js",
-	"main": "index.js",
 	"module": "index.js",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3210",
