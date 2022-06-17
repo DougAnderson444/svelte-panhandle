@@ -65,9 +65,9 @@
 		color: rgba(255, 255, 255, 0.69);
 		text-align: center;
 		background: rgba(0, 0, 0, 0.103);
-		margin-top: 7px;
-		margin-right: 7px;
-		padding: 7px 7px 4px 7px;
+		margin: 10px;
+		margin: 10px;
+		padding: 7px;
 		border-radius: 3px;
 		border: 0px solid #aaa;
 		position: absolute;
