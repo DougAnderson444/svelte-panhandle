@@ -7,6 +7,10 @@ export function pannable(node) {
 	let y;
 
 	function handleMousedown(event) {
+		console.log('an handleMousedown');
+		event.preventDefault();
+		event.stopPropagation();
+
 		x = event.clientX;
 		y = event.clientY;
 
