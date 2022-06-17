@@ -1,11 +1,10 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-72005589.js",
+    "file": "start-b80db03d.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-f0fce061.js",
-      "_preload-helper-65d6d0a2.js"
+      "_vendor-ba982148.js"
     ],
     "dynamicImports": [
       ".svelte-kit/runtime/components/layout.svelte",
@@ -14,51 +13,36 @@
     ]
   },
   ".svelte-kit/runtime/components/layout.svelte": {
-    "file": "layout.svelte-000d3bca.js",
+    "file": "layout.svelte-9ee2a98c.js",
     "src": ".svelte-kit/runtime/components/layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-f0fce061.js"
+      "_vendor-ba982148.js"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-c8c28093.js",
+    "file": "error.svelte-2e462a28.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-f0fce061.js"
+      "_vendor-ba982148.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-0ed795b7.js",
+    "file": "pages/index.svelte-aa3e1a71.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-f0fce061.js",
-      "_preload-helper-65d6d0a2.js"
-    ],
-    "dynamicImports": [
-      "src/lib/pannable.js"
+      "_vendor-ba982148.js"
     ],
     "css": [
-      "assets/pages/index.svelte-7a1e1bf4.css"
+      "assets/pages/index.svelte-e1e73e08.css"
     ]
   },
-  "_vendor-f0fce061.js": {
-    "file": "chunks/vendor-f0fce061.js"
-  },
-  "_preload-helper-65d6d0a2.js": {
-    "file": "chunks/preload-helper-65d6d0a2.js"
-  },
-  "src/lib/pannable.js": {
-    "file": "chunks/pannable-b2eb42cc.js",
-    "src": "src/lib/pannable.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-f0fce061.js"
-    ]
+  "_vendor-ba982148.js": {
+    "file": "chunks/vendor-ba982148.js"
   }
 }
