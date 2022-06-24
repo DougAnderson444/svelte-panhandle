@@ -35,7 +35,7 @@
 			},
 			end: (pointer, event, cancelled) => {
 				// nothing to do here
-				console.log('Drag ended');
+				// console.log('Drag ended');
 			}
 		});
 	}

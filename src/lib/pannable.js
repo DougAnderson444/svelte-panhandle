@@ -7,7 +7,7 @@ export function pannable(node) {
 	let y;
 
 	function handleMousedown(event) {
-		console.log('an handleMousedown');
+		// console.log('an handleMousedown');
 		event.preventDefault();
 		event.stopPropagation();
 
